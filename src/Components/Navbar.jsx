@@ -20,24 +20,19 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="nav-item active">
+          <li className="nav-item ">
             <Link className="nav-link" to="/addteam">
               Addteam
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="#">
-              Features
+            <Link className="nav-link" to="/addmatch">
+             Addmatch
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="#">
-              Pricing
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link disabled" to="#">
-              Disabled
+            <Link className="nav-link" to="/matches">
+             Matches
             </Link>
           </li>
         </ul>

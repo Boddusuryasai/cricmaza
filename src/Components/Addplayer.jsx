@@ -24,7 +24,6 @@ function Addplayer() {
                 },
                 body: JSON.stringify(newPlayer)
               });
-            
         } catch (error) {
              console.log(error)
         }

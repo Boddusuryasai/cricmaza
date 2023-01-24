@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import Addplayer from "./Components/Addplayer";
 import Addteam from "./Components/Addteam";
+import Addmatch from "./Components/Addmatch";
+import Matches from "./Components/Matches";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +17,8 @@ root.render(
         <Route path="/" element={<App />}>
            <Route path="/addplayer" element={<Addplayer/>} />
            <Route path="/addteam" element={<Addteam/>} />
+           <Route path="/addmatch" element={<Addmatch/>} />
+           <Route path="/matches" element={<Matches/>} />
          
         </Route>
       </Routes>

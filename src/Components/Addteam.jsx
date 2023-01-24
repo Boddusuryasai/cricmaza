@@ -69,7 +69,6 @@ function Addteam() {
           name="teamowner"
           onChange={handleChange}
         />
-         <button className='btn btn-primary mt-3' onClick={addTeam}> Add</button>
       </div>
       <div className="d-flex flex-wrap w">
         <div className="w-50">
@@ -89,7 +88,7 @@ function Addteam() {
             })}
         </div>
         <div className="w-50">
-          <h1>selected</h1>
+          <h3 className="mt-3">Selected Players {" "} <span> <button className='btn btn-primary mt-3' onClick={addTeam}> Add Team</button></span></h3>
           {newteam?.players &&
            newteam?.players?.map((e, i) => {
               return (
